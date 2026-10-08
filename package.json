@@ -1,0 +1,19 @@
+{
+  "name": "anti-cloudflare-cost",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint": "oxlint src examples test",
+    "check": "npm run lint && npm test"
+  },
+  "devDependencies": {
+    "@oxlint/plugins": "1.80.0",
+    "oxlint": "1.80.0"
+  }
+}
